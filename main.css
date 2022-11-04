@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1920px;
+    height: 200px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+
+.sofas{
+    border: none;
+}
+
+
+
+.novelty{
+    height: 785px;
+    background-image: url(./images/Ornella.png);
+}
+
+.slider-benefits{
+    width: 1758px;
+    height: 350px;
+}
