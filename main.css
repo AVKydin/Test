@@ -1,21 +1,130 @@
+@import "./font.css";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+
 .container{
     width: 1920px;
     height: 200px;
     margin: 0 auto;
-    background-color: aquamarine;
+
 }
 
-.sofas{
+.header{
+    color: #1E2E36;
+    font-size: 18px;
+    height: 165px;
+}
+
+.navigation{
+    font-family: 'ProximaNovaBold';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #1E2E36;
+    height: 60px;
+}
+
+.social{
+    margin-left: 51px;
+    display: flex;
+    align-items: center;
+}
+
+.social>a{
+    width: 40px;
+    margin-top: 5px;
+}
+
+.social>.phone{
+    margin-left: 50px;
+    width: 25px;
+}
+
+#phone{
+    
     border: none;
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
 }
 
+#phone>option{
+    height: 24x;
+}
 
+.pages{
+   text-transform: uppercase;
+    margin-right: 51px;
+    margin-left: 15px;
+
+}
+
+.pages>a{
+    text-decoration: none; 
+    color: #1E2E36;
+    margin-left: 15px;
+}
+
+.pages>a:hover{
+border-bottom: 3px solid #44C697;
+}
+
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    margin-left: 51px;
+    display: flex;
+}
+
+.menu>select{
+    border: none;
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.logo{
+    /* margin-left: 15px; */
+    margin-top: 15px;
+    margin-left: 115px;
+}
+
+.basket{
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font-family: 'ProximaNovaBold';
+    margin-top: 12px;
+}
+
+.basket>p{
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+.btn{
+    width: 278px;
+    height: 51px;
+    background-color: #44C697;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 18px;
+    font-family: 'ProximaNovaBold';
+    border: none;
+    margin-right: 51px;
+}
 
 .novelty{
     height: 785px;
