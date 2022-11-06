@@ -189,22 +189,286 @@ border-bottom: 3px solid #44C697;
     margin-top: 5px;
 }
 
+.benefits{
+    width: 1818px;
+    margin: 0 auto;
+}
+
+.green-crap{
+    width: 20px;
+    background-color: #44C697;
+    margin-left: 740px;
+}
 
 .benefits-title{
-    display: block;
-    width: 342px;
-    margin: auto;
+    width: 327px;
     font-size: 48px;
     font-family: 'ProximaNovaBold';
-    text-align: center;
     margin-top: 100px;
     margin-bottom: 52px;
-    border-left: 20px solid #44C697;
+    
 }
 
 .slider-benefits{
-    width: 1758px;
     height: 350px;
     display: flex;
+    justify-content: space-between;  
 }
+
+.premium{
+    background-image: url(./images/slider/Rectangle\ 172.png);
+    width: 586px;
+    display: flex;
+    align-items: end;
+}
+
+.premium>a{
+    position: absolute;
+    margin-bottom: 160px;
+    margin-left: 15px;
+}
+
+.premium>h4{
+    margin-left: 30px;
+    margin-bottom: 33px;
+    font-size: 36px;
+    font-family: 'ProximaNovaBold';
+    color: #FFFFFF;
+    border-bottom: 3px solid #44C697;
+}
+
+.reliability{
+    background-image: url(./images/slider/Rectangle\ 169.png);
+    width: 586px;
+}
+
+.reliability>h4{
+    margin-left: 30px;
+    margin-top: 272px;
+    font-size: 36px;
+    display: block;
+    font-family: 'ProximaNovaBold';
+    color: #FFFFFF;
+    border-bottom: 3px solid #44C697;
+}
+
+.reliability>p{
+    display: none;
+    color: #FFFFFF;
+    margin-left: 30px;
+    margin-top: 15px;
+    
+}
+
+.reliability:hover>h4{
+    margin-top: 211px;
+    transition-duration: 800ms;
+    display: block;
+}
+.reliability:hover>p{
+    transition-duration: 800ms;
+    display: block;
+}
+
+.delivery{
+    background-image: url(./images/slider/Rectangle\ 170.png);
+    display: flex;
+    justify-content: space-between;
+    width: 586px;
+    align-items: center;
+}
+
+.delivery-text>h4{
+margin-top: 242px;
+margin-left: 30px;
+    font-size: 36px;
+    display: block;
+    font-family: 'ProximaNovaBold';
+    color: #FFFFFF;
+    border-bottom: 3px solid #44C697;
+}
+
+.delivery-link>a{
+    margin-bottom: 160px;
+    margin-right: 15px;
+}
+
+.categories-title{
+    width: 377px;
+    font-size: 48px;
+    font-family: 'ProximaNovaBold';
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.categories-nav{
+    width: 1602px;
+    height: 143px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories-nav>a{
+    width: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1E2E36;
+    font-size: 24px;
+    font-family: 'ProximaNovaBold';
+    text-align: center;
+}
+
+.link-living{
+    background-image: url(./images/categories/living-room\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-living:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/living-room\ 1.png);
+}
+
+.link-bedroom{
+    background-image: url(./images/categories/bedroom\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-bedroom:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/bedroom\ 1.png);
+}
+
+.link-armchair{
+    background-image: url(./images/categories/armchair\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-armchair:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/armchair\ 1.png);
+}
+
+.link-commode{
+    background-image: url(./images/categories/wardrobe\ \(1\)\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-commode:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/wardrobe\ \(1\)\ 1.png);
+}
+
+.link-wardrobe{
+    background-image: url(./images/categories/wardrobe\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-wardrobe:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/wardrobe\ 1.png);
+}
+
+.link-kitchen{
+    background-image: url(./images/categories/kitchen\ 1.png);
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: flex-end;
+    transition: 300ms;
+    justify-content: center;
+}
+
+.link-kitchen:hover{
+    border-bottom: 3px solid #44C697;
+    background-image: url(./images/categories/hover/kitchen\ 1.png);
+}
+
+.categories-block{
+    width: 1818px;
+    margin: 0 auto;
+    margin-top: 84px;
+}
+
+.categories-row{
+    height: 360px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+
+.categories-img{
+    width: 586px;
+    height: 300px;
+}
+
+.categories-hit{
+    position: absolute;
+    margin-top: 10px;
+}
+
+.categories-action{
+    position: absolute;
+    margin-top: 48px;
+    width: 84px;
+    height: 33px;
+}
+
+.bedroom-text{
+    display: flex;
+    justify-content: space-between;
+    color: #1E2E36;
+    font-size: 24px;
+    font-family: 'ProximaNovaBold';
+    font-weight: 700;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.bedroom-text>p>span{
+    font-size: 18px;
+    color: #BCBDBB;
+}
+
+.categories-bedroom:hover{
+background-color: #44C697;
+transition: 500ms;
+
+}
+
+.categories-bedroom:hover>.bedroom-text>h4{
+    color: #FFFFFF; 
+    transition: 500ms;
+}
+
+.categories-bedroom:hover>.bedroom-text>p{
+    color: #FFFFFF; 
+    transition: 500ms;
+}
+.categories-bedroom:hover>.bedroom-text>p>span{
+    color: #FFFFFF; 
+    transition: 500ms;
+}
+
 
